@@ -397,6 +397,20 @@ button:focus {
         }
     }
 }
+@media (max-width: 1700px) {
+    .autor {
+        &__img {
+            left: -50px;
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .autor {
+        &__img {
+            left: -140px;
+        }
+    }
+}
 @media (max-width: 1440px) {
     .autor {
         background-position-x: 115%;
@@ -444,7 +458,7 @@ button:focus {
         }
     }
 }
-@media (max-width: 1180px) {
+@media (max-width: 1183px) {
     .autor {
         padding: 60px 0 0 0;
         background-position-y: 15%;
