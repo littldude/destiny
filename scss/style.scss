@@ -438,6 +438,26 @@ button:focus {
             }
         }
     }
+    .autor {
+        &__img {
+            width: 800px;
+        }
+    }
+}
+@media (max-width: 1180px) {
+    .autor {
+        padding: 60px 0 0 0;
+        background-position-y: 15%;
+        &__inner {
+            flex-direction: column-reverse;
+            margin: 0 auto;
+            width: 90%;
+        }
+        &__img {
+            position: static;
+            margin: 0 auto;
+        }
+    }
 }
 @media (max-width: 1112px) {
     .subtitle {
@@ -455,13 +475,6 @@ button:focus {
             }
         }
     }
-    .autor {
-        background-position-y: 15%;
-        &__img {
-            width: 800px;
-            left: -215px;
-        }
-    }
     .buy {
         &::after {
             top: 59%;
@@ -476,18 +489,7 @@ button:focus {
             }
         }
     }
-    .autor {
-        padding: 60px 0 0 0;
-        &__inner {
-            flex-direction: column-reverse;
-            margin: 0 auto;
-            width: 90%;
-        }
-        &__img {
-            position: static;
-            margin: 0 auto;
-        }
-    }
+    
 }
 @media (max-width: 991px) {
     .title {

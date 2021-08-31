@@ -443,6 +443,25 @@ button:focus {
     margin: 0 auto 50px auto;
     width: 90%;
   }
+
+  .autor__img {
+    width: 800px;
+  }
+}
+@media (max-width: 1180px) {
+  .autor {
+    padding: 60px 0 0 0;
+    background-position-y: 15%;
+  }
+  .autor__inner {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .autor__img {
+    position: static;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1112px) {
   .subtitle--how::before {
@@ -456,14 +475,6 @@ button:focus {
     right: -60px;
   }
 
-  .autor {
-    background-position-y: 15%;
-  }
-  .autor__img {
-    width: 800px;
-    left: -215px;
-  }
-
   .buy::after {
     top: 59%;
   }
@@ -471,19 +482,6 @@ button:focus {
 @media (max-width: 1040px) {
   .course__inner--item {
     padding: 30px 10px 60px 60px;
-  }
-
-  .autor {
-    padding: 60px 0 0 0;
-  }
-  .autor__inner {
-    flex-direction: column-reverse;
-    margin: 0 auto;
-    width: 90%;
-  }
-  .autor__img {
-    position: static;
-    margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
